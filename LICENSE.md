@@ -406,3 +406,6 @@ form of a separately written license, or stated as exceptions;
 the above requirements apply either way.
 
   8. Termination.
+
+  You may not propagate or modify a covered work except as expressly
+provided under this License.  Any attempt otherwise to propagate or
