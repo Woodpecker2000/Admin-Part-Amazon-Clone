@@ -414,3 +414,5 @@ this License (including any patent licenses granted under the third
 paragraph of section 11).
 
   However, if you cease all violation of this License, then your
+license from a particular copyright holder is reinstated (a)
+provisionally, unless and until the copyright holder explicitly and
