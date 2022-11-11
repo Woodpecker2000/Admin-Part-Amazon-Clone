@@ -10,3 +10,5 @@ And on Steve Manuatu's repo: https://github.com/venuatu/llama
 And on Shawn Presser's repo: https://github.com/shawwn/llama
 
 ### Examples of chats here
+
+https://github.com/facebookresearch/llama/issues/162
