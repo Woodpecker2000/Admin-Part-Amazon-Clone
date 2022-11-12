@@ -12,3 +12,5 @@ And on Shawn Presser's repo: https://github.com/shawwn/llama
 ### Examples of chats here
 
 https://github.com/facebookresearch/llama/issues/162
+
+Share your best prompts, chats or generations here in this issue: https://github.com/randaller/llama-chat/issues/7
