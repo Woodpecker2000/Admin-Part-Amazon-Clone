@@ -19,3 +19,5 @@ Share your best prompts, chats or generations here in this issue: https://github
 - Modern enough CPU
 - NVIDIA graphics card
 - 64 or better 128 Gb of RAM (192 or 256 would be perfect)
+
+One may run with 32 Gb of RAM, but inference will be slow (with the speed of your swap file reading)
