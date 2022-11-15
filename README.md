@@ -21,3 +21,5 @@ Share your best prompts, chats or generations here in this issue: https://github
 - 64 or better 128 Gb of RAM (192 or 256 would be perfect)
 
 One may run with 32 Gb of RAM, but inference will be slow (with the speed of your swap file reading)
+
+I am running this on 12700k/128 Gb RAM/NVIDIA 3070ti 8Gb/fast huge nvme and getting one token from 30B model in a few seconds.
