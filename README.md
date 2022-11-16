@@ -27,3 +27,5 @@ I am running this on 12700k/128 Gb RAM/NVIDIA 3070ti 8Gb/fast huge nvme and gett
 For example, **30B model uses around 70 Gb of RAM**. 7B model fits into 18 Gb. 13B model uses 48 Gb.
 
 If you do not have powerful videocard, you may use another repo for cpu-only inference: https://github.com/randaller/llama-cpu
+
+### Conda Environment Setup Example for Windows 10+
