@@ -32,3 +32,4 @@ If you do not have powerful videocard, you may use another repo for cpu-only inf
 Download and install Anaconda Python https://www.anaconda.com and run Anaconda Prompt
 ```
 conda create -n llama python=3.10
+conda activate llama
