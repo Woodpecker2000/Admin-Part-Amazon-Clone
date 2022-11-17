@@ -29,3 +29,4 @@ For example, **30B model uses around 70 Gb of RAM**. 7B model fits into 18 Gb. 1
 If you do not have powerful videocard, you may use another repo for cpu-only inference: https://github.com/randaller/llama-cpu
 
 ### Conda Environment Setup Example for Windows 10+
+Download and install Anaconda Python https://www.anaconda.com and run Anaconda Prompt
