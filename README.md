@@ -30,3 +30,4 @@ If you do not have powerful videocard, you may use another repo for cpu-only inf
 
 ### Conda Environment Setup Example for Windows 10+
 Download and install Anaconda Python https://www.anaconda.com and run Anaconda Prompt
+```
