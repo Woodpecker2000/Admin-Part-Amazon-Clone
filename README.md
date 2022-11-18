@@ -34,3 +34,4 @@ Download and install Anaconda Python https://www.anaconda.com and run Anaconda P
 conda create -n llama python=3.10
 conda activate llama
 conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia
+```
