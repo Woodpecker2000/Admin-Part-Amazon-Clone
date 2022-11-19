@@ -39,3 +39,4 @@ conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvi
 ### Setup
 In a conda env with pytorch / cuda available, run
 ```
+pip install -r requirements.txt
