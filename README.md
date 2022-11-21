@@ -43,3 +43,4 @@ pip install -r requirements.txt
 ```
 Then in this repository
 ```
+pip install -e .
