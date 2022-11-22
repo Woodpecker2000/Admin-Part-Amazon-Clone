@@ -45,3 +45,5 @@ Then in this repository
 ```
 pip install -e .
 ```
+
+### Download tokenizer and models
