@@ -47,3 +47,6 @@ pip install -e .
 ```
 
 ### Download tokenizer and models
+magnet:?xt=urn:btih:ZXXDAUWYLRUXXBHUYEMS6Q5CE5WA3LVA&dn=LLaMA
+
+or
