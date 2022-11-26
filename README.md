@@ -58,3 +58,4 @@ magnet:xt=urn:btih:b8287ebfa04f879b048d4d4404108cf3e8014352&dn=LLaMA&tr=udp%3a%2
 First, you need to unshard model checkpoints to a single file. Let's do this for 30B model.
 
 ```
+python merge-weights.py --input_dir D:\Downloads\LLaMA --model_size 30B
