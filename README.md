@@ -59,3 +59,4 @@ First, you need to unshard model checkpoints to a single file. Let's do this for
 
 ```
 python merge-weights.py --input_dir D:\Downloads\LLaMA --model_size 30B
+```
