@@ -66,3 +66,5 @@ In this example, D:\Downloads\LLaMA is a root folder of downloaded torrent with 
 This will create merged.pth file in the root folder of this repo.
 
 Place this file and corresponding (torrentroot)/30B/params.json of model into [/model] folder.
+
+So you should end up with two files in [/model] folder: merged.pth and params.json.
