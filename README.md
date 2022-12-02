@@ -74,3 +74,4 @@ Place (torrentroot)/tokenizer.model file to the [/tokenizer] folder of this repo
 ### Run the chat
 
 ```
+python example-chat.py ./model ./tokenizer/tokenizer.model
