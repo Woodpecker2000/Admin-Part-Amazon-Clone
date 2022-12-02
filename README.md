@@ -72,3 +72,5 @@ So you should end up with two files in [/model] folder: merged.pth and params.js
 Place (torrentroot)/tokenizer.model file to the [/tokenizer] folder of this repo. Now you are ready to go.
 
 ### Run the chat
+
+```
