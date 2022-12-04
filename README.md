@@ -78,3 +78,5 @@ python example-chat.py ./model ./tokenizer/tokenizer.model
 ```
 
 ### Generation parameters
+
+![image](https://user-images.githubusercontent.com/22396871/224481306-0079dc71-a659-46f2-96a3-38d8a0b8bafc.png)
