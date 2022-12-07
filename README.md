@@ -86,3 +86,5 @@ python example-chat.py ./model ./tokenizer/tokenizer.model
 **Repetition penalty** is a feature implemented by Shawn Presser. With this, the model will be fined, when it would like to enter to repetion loop state. Set this parameter to 1.0, if you wish to disable this feature.
 
 **Samplers**
+
+By default, Meta provided us with top_p sampler only. Again, Shawn added an alternate top_k sampler, which (in my tests) performs pretty well. If you wish to switch to top_k sampler, use the following parameters:
