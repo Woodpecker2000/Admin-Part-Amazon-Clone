@@ -94,3 +94,4 @@ temperature: float = 0.7,
 top_p: float = 0.0,
 top_k: int = 40,
 sampler: str = 'top_k',
+```
