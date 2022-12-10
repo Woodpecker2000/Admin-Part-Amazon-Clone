@@ -93,3 +93,4 @@ By default, Meta provided us with top_p sampler only. Again, Shawn added an alte
 temperature: float = 0.7,
 top_p: float = 0.0,
 top_k: int = 40,
+sampler: str = 'top_k',
