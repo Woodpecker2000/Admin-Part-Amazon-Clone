@@ -95,3 +95,5 @@ top_p: float = 0.0,
 top_k: int = 40,
 sampler: str = 'top_k',
 ```
+
+For sure, you may play with all the values to get different outputs.
