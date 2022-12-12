@@ -97,3 +97,5 @@ sampler: str = 'top_k',
 ```
 
 For sure, you may play with all the values to get different outputs.
+
+**Launch examples**
