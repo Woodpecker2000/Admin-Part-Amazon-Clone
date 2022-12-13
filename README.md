@@ -101,3 +101,5 @@ For sure, you may play with all the values to get different outputs.
 **Launch examples**
 
 One may modify these hyperparameters straight in the code. But it is better to leave the defaults in code and set the parameters of experiments in the launch line.
+
+```
