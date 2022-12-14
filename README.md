@@ -105,3 +105,5 @@ One may modify these hyperparameters straight in the code. But it is better to l
 ```
 # Run with top_p sampler, with temperature 0.75, with top_p value 0.95, repetition penalty disabled
 python example-chat.py ./model ./tokenizer/tokenizer.model 0.75 0.95 0 1.0 top_p
+
+# Run with top_k sampler, with temperature 0.7, with top_k value 40, default repetition penalty value
