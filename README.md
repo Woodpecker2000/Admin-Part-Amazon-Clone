@@ -103,3 +103,5 @@ For sure, you may play with all the values to get different outputs.
 One may modify these hyperparameters straight in the code. But it is better to leave the defaults in code and set the parameters of experiments in the launch line.
 
 ```
+# Run with top_p sampler, with temperature 0.75, with top_p value 0.95, repetition penalty disabled
+python example-chat.py ./model ./tokenizer/tokenizer.model 0.75 0.95 0 1.0 top_p
