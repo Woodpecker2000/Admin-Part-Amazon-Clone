@@ -112,3 +112,5 @@ python example-chat.py ./model ./tokenizer/tokenizer.model 0.7 0.0 40 1.17 top_k
 
 Of course, this is also applicable to a [python example.py] as well (see below).
 
+
+### Enable multi-line answers
