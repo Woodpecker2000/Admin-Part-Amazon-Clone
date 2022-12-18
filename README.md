@@ -114,3 +114,5 @@ Of course, this is also applicable to a [python example.py] as well (see below).
 
 
 ### Enable multi-line answers
+
+If you wish to stop generation not by "\n" sign, but by another signature, like "User:" (which is also good idea), or any other, make the following modification in the llama/generation.py:
