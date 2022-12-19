@@ -118,3 +118,5 @@ Of course, this is also applicable to a [python example.py] as well (see below).
 If you wish to stop generation not by "\n" sign, but by another signature, like "User:" (which is also good idea), or any other, make the following modification in the llama/generation.py:
 
 ![image](https://user-images.githubusercontent.com/22396871/224122767-227deda4-a718-4774-a7f9-786c07d379cf.png)
+
+-5 means to remove last 5 chars from resulting context, which is length of your stop signature, "User:" in this example.
