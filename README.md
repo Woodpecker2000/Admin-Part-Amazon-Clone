@@ -126,3 +126,5 @@ If you wish to stop generation not by "\n" sign, but by another signature, like 
 Share your best prompts and generations with others here: https://github.com/randaller/llama-chat/issues/7
 
 ### Typical generation with prompt (not a chat)
+
+Simply comment three lines in llama/generation.py to turn it to a generator back.
