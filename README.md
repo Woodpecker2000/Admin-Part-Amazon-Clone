@@ -128,3 +128,5 @@ Share your best prompts and generations with others here: https://github.com/ran
 ### Typical generation with prompt (not a chat)
 
 Simply comment three lines in llama/generation.py to turn it to a generator back.
+
+![image](https://user-images.githubusercontent.com/22396871/224283389-e29de04e-28d1-4ccd-bf6b-81b29828d3eb.png)
