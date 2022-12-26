@@ -134,3 +134,5 @@ Simply comment three lines in llama/generation.py to turn it to a generator back
 ```
 python example.py ./model ./tokenizer/tokenizer.model
 ```
+
+Confirming that 30B model is able to generate code and fix errors in code: https://github.com/randaller/llama-chat/issues/7
