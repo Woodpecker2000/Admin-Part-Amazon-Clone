@@ -133,3 +133,4 @@ Simply comment three lines in llama/generation.py to turn it to a generator back
 
 ```
 python example.py ./model ./tokenizer/tokenizer.model
+```
