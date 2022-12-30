@@ -5,3 +5,5 @@
 from typing import Tuple
 import os
 import sys
+import torch
+import fire
