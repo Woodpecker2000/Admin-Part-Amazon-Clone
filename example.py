@@ -9,3 +9,4 @@ import torch
 import fire
 import time
 import json
+import pyarrow as pa
