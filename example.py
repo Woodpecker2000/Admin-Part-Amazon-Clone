@@ -18,3 +18,5 @@ from llama import ModelArgs, Transformer, Tokenizer, LLaMA
 
 def load(
         ckpt_dir: str,
+        tokenizer_path: str,
+        max_seq_len: int,
