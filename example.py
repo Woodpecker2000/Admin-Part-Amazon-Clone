@@ -17,3 +17,4 @@ from llama import ModelArgs, Transformer, Tokenizer, LLaMA
 
 
 def load(
+        ckpt_dir: str,
