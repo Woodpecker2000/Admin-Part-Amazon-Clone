@@ -23,3 +23,4 @@ def load(
         max_batch_size: int,
 ) -> LLaMA:
     start_time = time.time()
+    arrow_dir = Path(ckpt_dir).expanduser() / 'arrow'
