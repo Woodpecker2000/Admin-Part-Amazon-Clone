@@ -21,3 +21,4 @@ def load(
         tokenizer_path: str,
         max_seq_len: int,
         max_batch_size: int,
+) -> LLaMA:
