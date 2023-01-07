@@ -26,3 +26,4 @@ def load(
     arrow_dir = Path(ckpt_dir).expanduser() / 'arrow'
 
     if not arrow_dir.exists():
+        print('Converting checkpoints to arrow format')
