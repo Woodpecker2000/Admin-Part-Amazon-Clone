@@ -24,3 +24,5 @@ def load(
 ) -> LLaMA:
     start_time = time.time()
     arrow_dir = Path(ckpt_dir).expanduser() / 'arrow'
+
+    if not arrow_dir.exists():
