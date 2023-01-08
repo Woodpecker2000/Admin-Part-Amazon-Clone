@@ -29,3 +29,4 @@ def load(
         print('Converting checkpoints to arrow format')
         checkpoints = sorted(Path(ckpt_dir).expanduser().glob("*.pth"))
         for ckpt_file in checkpoints:
+            print(ckpt_file)
