@@ -30,3 +30,4 @@ def load(
         checkpoints = sorted(Path(ckpt_dir).expanduser().glob("*.pth"))
         for ckpt_file in checkpoints:
             print(ckpt_file)
+            index = ckpt_file.parts[-1].split('.')[-2]
