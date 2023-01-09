@@ -31,3 +31,5 @@ def load(
         for ckpt_file in checkpoints:
             print(ckpt_file)
             index = ckpt_file.parts[-1].split('.')[-2]
+
+            ckpt = torch.load(ckpt_file, map_location='cpu')
