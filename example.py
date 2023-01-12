@@ -35,3 +35,4 @@ def load(
             ckpt = torch.load(ckpt_file, map_location='cpu')
             (arrow_dir / index).mkdir(parents=True, exist_ok=True)
             for k, v in ckpt.items():
+                tens = pa.Tensor.from_numpy(v.numpy())
