@@ -38,3 +38,4 @@ def load(
                 tens = pa.Tensor.from_numpy(v.numpy())
                 with pa.output_stream(arrow_dir / index / k) as f:
                     pa.ipc.write_tensor(tens, f)
+            ckpt = None
