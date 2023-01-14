@@ -39,3 +39,5 @@ def load(
                 with pa.output_stream(arrow_dir / index / k) as f:
                     pa.ipc.write_tensor(tens, f)
             ckpt = None
+
+    with open(Path(ckpt_dir) / "params.json", "r") as f:
