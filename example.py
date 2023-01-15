@@ -41,3 +41,4 @@ def load(
             ckpt = None
 
     with open(Path(ckpt_dir) / "params.json", "r") as f:
+        params = json.loads(f.read())
