@@ -42,3 +42,5 @@ def load(
 
     with open(Path(ckpt_dir) / "params.json", "r") as f:
         params = json.loads(f.read())
+
+    print("Loading checkpoint")
