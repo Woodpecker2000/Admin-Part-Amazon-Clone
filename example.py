@@ -44,3 +44,4 @@ def load(
         params = json.loads(f.read())
 
     print("Loading checkpoint")
+    segments = sorted((arrow_dir / '00').glob("*"))
