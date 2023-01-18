@@ -48,3 +48,4 @@ def load(
     # print(segments)
 
     checkpoint = {}
+    files = []
