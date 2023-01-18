@@ -46,3 +46,5 @@ def load(
     print("Loading checkpoint")
     segments = sorted((arrow_dir / '00').glob("*"))
     # print(segments)
+
+    checkpoint = {}
