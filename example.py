@@ -53,3 +53,4 @@ def load(
         f = pa.memory_map(str(seg))
         files.append(f)
         t = pa.ipc.read_tensor(f).to_numpy()
+        t = torch.from_numpy(t)
