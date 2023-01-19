@@ -49,3 +49,5 @@ def load(
 
     checkpoint = {}
     files = []
+    for seg in segments:
+        f = pa.memory_map(str(seg))
