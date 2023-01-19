@@ -51,3 +51,4 @@ def load(
     files = []
     for seg in segments:
         f = pa.memory_map(str(seg))
+        files.append(f)
