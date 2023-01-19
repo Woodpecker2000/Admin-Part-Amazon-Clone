@@ -52,3 +52,4 @@ def load(
     for seg in segments:
         f = pa.memory_map(str(seg))
         files.append(f)
+        t = pa.ipc.read_tensor(f).to_numpy()
