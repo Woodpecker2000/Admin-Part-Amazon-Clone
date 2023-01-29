@@ -54,3 +54,7 @@ def load(
         files.append(f)
         t = pa.ipc.read_tensor(f).to_numpy()
         t = torch.from_numpy(t)
+        checkpoint[seg.parts[-1]] = t
+
+    # torch.set_default_tensor_type(torch.cuda.HalfTensor)
+    torch.set_default_tensor_type(torch.BFloat16Tensor)
