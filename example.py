@@ -59,3 +59,5 @@ def load(
     # torch.set_default_tensor_type(torch.cuda.HalfTensor)
     torch.set_default_tensor_type(torch.BFloat16Tensor)
     # torch.set_default_tensor_type(torch.FloatTensor)
+
+    model_args: ModelArgs = ModelArgs(
