@@ -61,3 +61,4 @@ def load(
     # torch.set_default_tensor_type(torch.FloatTensor)
 
     model_args: ModelArgs = ModelArgs(
+        max_seq_len=max_seq_len, max_batch_size=max_batch_size, **params
