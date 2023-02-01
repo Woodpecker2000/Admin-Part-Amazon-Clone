@@ -65,3 +65,4 @@ def load(
     )
     print("Loading tokenizer")
     tokenizer = Tokenizer(model_path=tokenizer_path)
+    model_args.vocab_size = tokenizer.n_words
