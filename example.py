@@ -64,3 +64,4 @@ def load(
         max_seq_len=max_seq_len, max_batch_size=max_batch_size, **params
     )
     print("Loading tokenizer")
+    tokenizer = Tokenizer(model_path=tokenizer_path)
