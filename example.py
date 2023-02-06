@@ -70,3 +70,4 @@ def load(
     model = Transformer(model_args)
 
     checkpoints = sorted(Path(ckpt_dir).glob("*.pth"))
+    model.load_state_dict(torch.load(checkpoints[-1]), strict=False)
