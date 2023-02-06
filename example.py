@@ -68,3 +68,5 @@ def load(
     model_args.vocab_size = tokenizer.n_words
     print("Loading model")
     model = Transformer(model_args)
+
+    checkpoints = sorted(Path(ckpt_dir).glob("*.pth"))
