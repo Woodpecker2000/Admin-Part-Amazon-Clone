@@ -67,3 +67,4 @@ def load(
     tokenizer = Tokenizer(model_path=tokenizer_path)
     model_args.vocab_size = tokenizer.n_words
     print("Loading model")
+    model = Transformer(model_args)
