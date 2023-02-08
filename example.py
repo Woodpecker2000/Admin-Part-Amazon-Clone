@@ -73,3 +73,4 @@ def load(
     model.load_state_dict(torch.load(checkpoints[-1]), strict=False)
 
     for f in files:
+        f.close()
