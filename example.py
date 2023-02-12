@@ -75,3 +75,5 @@ def load(
     for f in files:
         f.close()
     files = None
+
+    generator = LLaMA(model, tokenizer)
