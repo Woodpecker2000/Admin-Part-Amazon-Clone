@@ -82,3 +82,5 @@ def load(
 
 
 def main(
+        ckpt_dir: str,
+        tokenizer_path: str,
