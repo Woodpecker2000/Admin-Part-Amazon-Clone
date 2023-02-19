@@ -84,3 +84,4 @@ def load(
 def main(
         ckpt_dir: str,
         tokenizer_path: str,
+        temperature: float = 0.8,
