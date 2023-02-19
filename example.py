@@ -80,3 +80,5 @@ def load(
     print(f"Loaded in {time.time() - start_time:.2f} seconds")
     return generator
 
+
+def main(
