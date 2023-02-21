@@ -87,3 +87,4 @@ def main(
         temperature: float = 0.8,
         top_p: float = 0.95,  # use 0.95 or so for top_p sampler, and 0.0 for top_k sampler
         top_k: int = 40,
+        repetition_penalty: float = (1.0 / 0.85),  # 1.0 to disable repetition_penalty
