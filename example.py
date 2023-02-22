@@ -90,3 +90,4 @@ def main(
         repetition_penalty: float = (1.0 / 0.85),  # 1.0 to disable repetition_penalty
         sampler: str = 'top_p',  # top_p or top_k
         max_seq_len: int = 2048,
+        max_batch_size: int = 1,
