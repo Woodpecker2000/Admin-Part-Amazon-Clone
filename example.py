@@ -91,3 +91,5 @@ def main(
         sampler: str = 'top_p',  # top_p or top_k
         max_seq_len: int = 2048,
         max_batch_size: int = 1,
+):
+    generator = load(ckpt_dir, tokenizer_path, max_seq_len, max_batch_size)
