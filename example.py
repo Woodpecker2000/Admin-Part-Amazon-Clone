@@ -93,3 +93,7 @@ def main(
         max_batch_size: int = 1,
 ):
     generator = load(ckpt_dir, tokenizer_path, max_seq_len, max_batch_size)
+
+    prompts = [
+        # "I believe the meaning of life is",
+        """Write the Python code with detailed comments to generate 256 random integers in the range from -128 to 512, inclusive.
