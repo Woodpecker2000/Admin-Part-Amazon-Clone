@@ -102,3 +102,4 @@ def main(
     
     results = generator.generate(
         prompts, max_gen_len=max_seq_len, temperature=temperature, top_p=top_p, top_k=top_k, repetition_penalty=repetition_penalty, sampler=sampler
+    )
