@@ -107,3 +107,5 @@ def main(
     for result in results:
         print("\n==================================\n")
         print(result)
+        print("\n==================================\n")
+
