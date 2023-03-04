@@ -109,3 +109,5 @@ def main(
         print(result)
         print("\n==================================\n")
 
+
+if __name__ == "__main__":
